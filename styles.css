@@ -1,0 +1,185 @@
+header {
+    background-color: rgb(62, 57, 57);
+    font-family: Arial, sans-serif;
+    color: white;
+    padding-bottom: ;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* nav {
+    text-align: left;
+} */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-inline-start: 0px;
+}
+        
+
+
+nav li {
+    display: inline;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0;
+}
+  
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
+
+nav a:hover {
+    color: lightgrey;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(62, 57, 57);
+    color: white;
+    padding: 15px;
+    font-size: larger;
+}
+
+.container {
+    padding-top: 5px;
+    word-wrap: normal;
+}
+
+/* img { 
+    width: 100px;
+    height: auto;
+
+  } */
+
+.float-left {
+float: left;
+padding: 10px;
+padding-left: 20px;
+margin: 0;
+padding-bottom: 50px;
+}
+
+/* main {
+    font-style: normal;
+    margin-bottom: 20px;
+
+} */
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* main p {
+    color: black;
+} */
+
+h2 {
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+#contact-info {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+#contact-form {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 20px;
+}
+
+.Harley-Davidson::after {
+    content: "";
+    clear: both;
+    display: table-row;
+   
+  }
+
+
+  table {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bike-type {
+    background: gray;
+    color: white;
+  }
+
+  /* tr, th, td {
+    width: 100%;
+  } */
+
+
+
+
+
+  #message {
+    height: 300px;
+    width: 100%;
+  }
+
+  #name {
+    width: 100%;
+    position: relative;
+
+  }
+
+  #email {
+    width: 100%;
+    position: relative;
+    
+  }
+
+.container {
+    position: relative;
+
+}
+
+.name {
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+}
+
+.email {
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.name {
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    
+}
+
+.message {
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+}
+
+.message-button {
+font-family: Arial, sans-serif; 
+background-color: black; 
+color: white; 
+padding: 10px; 
+margin-top: 10px;
+}
